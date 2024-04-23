@@ -24,6 +24,7 @@ def is_palindrome(phrase):
     formattedPhrase = phrase.lower().replace(" ", "")
     formattedPhraseReverse = formattedPhrase[::-1]
 
+    # NOTE: return line 27 (instead of if)
     if formattedPhrase == formattedPhraseReverse:
         return True
     return False

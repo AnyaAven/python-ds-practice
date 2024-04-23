@@ -11,9 +11,10 @@ def number_compare(a, b):
         'First is greater'
     """
 
+# FIXME: equals should be else case
+
     if a == b:
         return 'Numbers are equal'
-
     if b > a:
         return 'Second is greater'
     else:

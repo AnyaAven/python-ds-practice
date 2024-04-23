@@ -7,7 +7,7 @@ def multiple_letter_count(phrase):
         >>> multiple_letter_count('Yay')
         {'Y': 1, 'a': 1, 'y': 1}
     """
-    letterFreqs = {}
+    letter_freqs = {}
     for letter in phrase:
-        letterFreqs[letter] = phrase.count(letter)
-    return letterFreqs
+        letter_freqs[letter] = phrase.count(letter)  # FIXME: use get method
+    return letter_freqs

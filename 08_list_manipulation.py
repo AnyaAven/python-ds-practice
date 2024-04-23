@@ -58,4 +58,4 @@ def list_manipulation(lst, command, location, value=None):
             lst.append(value)
             return lst
         else:
-            return lst.pop(-1)
+            return lst.pop(-1)  # NOTE: pop removes last element by default

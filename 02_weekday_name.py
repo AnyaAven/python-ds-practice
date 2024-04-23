@@ -15,14 +15,14 @@ def weekday_name(day_of_week):
     if day_of_week < 1 or day_of_week > 7:
         return None
 
-    names_of_days = ["Sunday",
-                     "Monday",
-                     "Tuesday",
-                     "Wednesday",
-                     "Thursday",
-                     "Friday",
-                     "Saturday"]
+    names_of_days = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    ]  # TODO: make this global const
 
     return names_of_days[day_of_week - 1]
-
-
