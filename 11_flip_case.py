@@ -21,6 +21,3 @@ def flip_case(phrase, to_swap):
             new_str += ltr
 
     return new_str
-
-
-print(flip_case("aaahHHHHShdhshhs", "h"))

@@ -1,3 +1,5 @@
+from collections import Counter
+
 def mode(nums):
     """Return most-common number in list.
 
@@ -11,3 +13,6 @@ def mode(nums):
         >>> mode([2, 2, 3, 3, 2])
         2
     """
+    # RETURN key of highest value
+    freqs = Counter(nums)
+    return freqs.most_common(1)[0][0] #[0] to enter the list and another [0] to enter the tuple
